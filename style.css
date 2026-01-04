@@ -1,0 +1,27 @@
+body{
+  background:#020617;
+  color:white;
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.container{
+  display:flex;
+  gap:20px;
+}
+#box{
+  background:#22c55e;
+  padding:16px;
+  border-radius:8px;
+  cursor:grab;
+}
+.drop{
+  width:140px;
+  height:60px;
+  border:2px dashed #64748b;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
